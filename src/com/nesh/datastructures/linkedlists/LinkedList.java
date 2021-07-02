@@ -7,7 +7,7 @@ public class LinkedList {
 
   private class Node {
     private int value;
-    private Node next;
+    public Node next;
   }
 
   public void addFirst(int item) {
